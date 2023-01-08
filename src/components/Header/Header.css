@@ -1,0 +1,9 @@
+.header {
+
+    height: 1200px;
+    background-image: url(../../Assests/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+}
