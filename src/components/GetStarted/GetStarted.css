@@ -1,0 +1,79 @@
+.get-started-container {
+    max-width: 1420px;
+    height: 331px;
+    margin: auto;
+    background-image: linear-gradient(92.76deg, #8940FA 0%, #6DDBF8 100%);
+    margin-bottom: 200px;
+    border-radius: 15px;
+}
+
+.container {
+    background-image: url(../../Assests/bg2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    max-width: 1420px;
+    height: 331px;
+    border-radius: 15px;
+}
+
+.get-started-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.get-start-free-button {
+    width: 294px;
+    height: 70px;
+    background: #FFFFFF;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: -0.2px;
+    border: none;
+    color: #6DDBF8;
+    cursor: pointer;
+}
+
+.explore-plan-button {
+    width: 234px;
+    height: 70px;
+    border: 2px solid #FFFFFF;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: -0.2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.get-started-text {
+    margin: auto;
+    text-align: center;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 54px;
+    letter-spacing: -0.2px;
+    max-width: 550px;
+    color: #FFFFFF;
+    margin-bottom: 45px;
+    padding-top: 58px;
+}
+
+@media only screen and (max-width:688px) {
+    .get-started-buttons {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .get-started-container {
+        height: 450px;
+    }
+}
