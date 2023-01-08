@@ -1,0 +1,84 @@
+.navbar {
+
+    margin: 32px auto;
+    max-width: 1450px;
+    display: flex;
+    align-items: center;
+}
+
+.nav {
+    margin: 0 auto;
+}
+
+.nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 0px 25px;
+}
+
+.nav .icon {
+    display: none;
+}
+
+.login-button {
+    width: 130px;
+    height: 54px;
+    left: 1540px;
+    top: 32px;
+
+    background: #8E40FA;
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: white;
+    cursor: pointer;
+
+}
+
+.login-container {
+    display: flex;
+    align-items: center;
+    color: #00CAFF;
+    font-size: 24px;
+}
+
+.dark-mode-button {
+    margin-right: 25px;
+    cursor: pointer;
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .nav a {
+        display: none;
+    }
+
+    .logo {
+        margin-left: 20px;
+    }
+
+    .nav a.icon {
+
+        display: block;
+        margin-left: 250px;
+    }
+
+    .login-container {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .nav.responsive {
+        position: relative;
+    }
+
+    .nav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+}
