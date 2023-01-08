@@ -1,0 +1,135 @@
+.reviews-header-text {}
+
+.customer-reviews-container {
+    text-align: center;
+}
+
+.customer-reviews-container h3 {
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 150%;
+    color: #FFFFFF;
+    margin-bottom: 0;
+}
+
+.customer-reviews-container p {
+    max-width: 682px;
+    margin: auto;
+    padding-top: 15px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 170%;
+    color: #FFFFFF;
+    opacity: 0.7;
+    margin-bottom: 90px;
+}
+
+.all-reviews {
+    max-width: 1420px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 36px;
+    margin-bottom: 60px;
+}
+
+.review-container {
+    margin: auto;
+    padding: 45px;
+    background-color: #19191D;
+    box-shadow: 0px 15px 36px rgba(0, 0, 0, 0.05);
+    border-radius: 30px;
+    max-width: 692px;
+
+
+
+}
+
+.comments {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: -0.2px;
+
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.customer-name {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 140%;
+    color: #FFFFFF;
+    margin-bottom: 0;
+}
+
+.customer-position {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 170%;
+    color: #FFFFFF;
+
+    opacity: 0.5;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.customers-review-one {
+    background-image: url(../../Assests//icons/quatation-down.png);
+    background-repeat: no-repeat;
+
+}
+
+.customers-review-two {
+    background-image: url(../../Assests/icons/quatation-up.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+.avater {
+    margin-bottom: 15px;
+
+}
+
+.review-slide-number-container {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-bottom: 200px;
+}
+
+.slide-number-one {
+    width: 20px;
+    height: 20px;
+    padding: 20px;
+    border-radius: 100%;
+    background: #6DDBF8;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+
+.slide-number-two {
+    width: 20px;
+    height: 20px;
+    padding: 20px;
+    border-radius: 100%;
+    background: #19191D;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.07);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 140%;
+    color: #6DDBF8;
+}
+
+@media only screen and (max-width:688px) {
+    .customer-reviews-container {
+        margin-top: 900px;
+    }
+
+    .all-reviews {
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
