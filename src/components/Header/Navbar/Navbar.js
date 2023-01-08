@@ -30,7 +30,7 @@ const Navbar = () => {
                 <a href="">Products</a>
                 <a href="">Become an affiliate (48%)</a>
                 <a href="">Pricing</a>
-                <a href="javascript:void(0);" className='icon' ><FiAlignJustify /></a>
+                <a href="" className='icon' ><FiAlignJustify /></a>
             </div>
 
             <div className='login-container'>

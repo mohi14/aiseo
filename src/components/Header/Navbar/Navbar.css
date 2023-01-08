@@ -51,7 +51,7 @@
 
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 688px) {
     .nav a {
         display: none;
     }
@@ -71,7 +71,7 @@
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 688px) {
     .nav.responsive {
         position: relative;
     }
