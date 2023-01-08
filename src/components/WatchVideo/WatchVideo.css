@@ -1,0 +1,35 @@
+.watch-video-container {
+    height: 1347px;
+    background: #24242A;
+}
+
+.video-frame {
+    max-width: 871px;
+    padding-top: 373px;
+    margin: 0 auto;
+}
+
+.video-frame img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.full-video {
+    padding-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    cursor: pointer;
+}
+
+.full-video p {
+
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: -0.2px;
+
+    color: #6DDBF8;
+}
