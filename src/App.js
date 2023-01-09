@@ -9,7 +9,7 @@ import WatchVideo from './components/WatchVideo/WatchVideo';
 
 function App() {
   return (
-    <div>
+    <>
       <Header></Header>
       <WatchVideo></WatchVideo>
       <GrowFaster></GrowFaster>
@@ -17,7 +17,7 @@ function App() {
       <GetStarted></GetStarted>
       <AllTemplates></AllTemplates>
       <Footer></Footer>
-    </div>
+    </>
   );
 }
 

@@ -1,6 +1,7 @@
-import React, { useState } from 'react';
+import React, { useContext, useState } from 'react';
 import './Navbar.css'
 import { FiAlignJustify, FiSun, FiMoon } from "react-icons/fi";
+import { DarkModeContext } from '../../../contexts/DarkModeProvider';
 
 const Navbar = () => {
     // const handleBurgerIcon = () => {
@@ -13,9 +14,13 @@ const Navbar = () => {
     //     }
     // }
 
+    const { dark, setDark, darkMode } = useContext(DarkModeContext)
+
     const [mode, setMode] = useState(false)
     const handleDarkMode = () => {
         setMode(!mode)
+        setDark(!dark)
+        localStorage.setItem('dark', !darkMode)
     }
     return (
         <nav className='navbar'>
@@ -23,7 +28,7 @@ const Navbar = () => {
                 <img src={require('../../../Assests/logo.png')} alt="" />
             </div>
 
-            <div className='nav' id='myNav'>
+            <div className='nav' id='myNav' style={{ color: darkMode ? 'black' : 'white' }}>
                 <a href="">Chrome Extension</a>
                 <a href="">Paraphrasing tool</a>
                 <a href="">Resources</a>
@@ -34,7 +39,7 @@ const Navbar = () => {
             </div>
 
             <div className='login-container'>
-                <div className='dark-mode-button' onClick={handleDarkMode}>
+                <div className='dark-mode-button' onClick={() => handleDarkMode(dark)}>
                     {
                         mode ? <FiMoon /> : <FiSun />
                     }
