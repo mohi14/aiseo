@@ -4,7 +4,7 @@ const Footer = () => {
     return (
         <section className='footer-container'>
             <div className='footer'>
-                <div className='company-logo'>
+                <div >
                     <img src={require('../../Assests/logo1.png.png')} alt="" />
                     <p>© AISEO. All Rights Reserved.
                         Built by.</p>

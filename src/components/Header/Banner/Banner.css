@@ -70,3 +70,31 @@
     line-height: 30px;
     letter-spacing: -0.2px;
 }
+
+@media only screen and (max-width:688px) {
+    .copywriting-text {
+        line-height: 40px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .banner-text h1 {
+        font-weight: 800;
+        font-size: 50px;
+        line-height: 70px;
+        letter-spacing: -0.2px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .banner-text p {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .banner-buttons {
+        flex-direction: column;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}

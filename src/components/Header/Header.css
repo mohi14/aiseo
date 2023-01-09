@@ -7,3 +7,9 @@
     background-position: center center;
 
 }
+
+@media only screen and (max-width:688px) {
+    .header {
+        margin-bottom: 150px;
+    }
+}
