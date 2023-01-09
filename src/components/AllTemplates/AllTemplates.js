@@ -5,7 +5,7 @@ const AllTemplates = () => {
         <section className='all-templates'>
             <div className='see-all'>
                 <h3 className='see-all-text'>Start with a template</h3>
-                <div><button className='get-start-button'>See All Templates</button></div>
+                <div><button className='get-start-button all'>See All Templates</button></div>
             </div>
 
             <div className='card-container'>
@@ -42,6 +42,8 @@ const AllTemplates = () => {
                     </div>
                 </div>
             </div>
+
+            <div><button className='get-start-button all-ph'>See All Templates</button></div>
         </section>
     );
 };

@@ -1,6 +1,7 @@
 import './App.css';
 import AllTemplates from './components/AllTemplates/AllTemplates';
 import CustomerReviews from './components/CustomerReviews/CustomerReviews';
+import Footer from './components/Footer/Footer';
 import GetStarted from './components/GetStarted/GetStarted';
 import GrowFaster from './components/GrowFaster/GrowFaster';
 import Header from './components/Header/Header';
@@ -15,6 +16,7 @@ function App() {
       <CustomerReviews></CustomerReviews>
       <GetStarted></GetStarted>
       <AllTemplates></AllTemplates>
+      <Footer></Footer>
     </div>
   );
 }

@@ -1,6 +1,7 @@
 .all-templates {
     max-width: 1420px;
     margin: auto;
+    margin-bottom: 70px;
 }
 
 .see-all {
@@ -103,4 +104,31 @@
     letter-spacing: -0.2px;
 
     color: #FF8A50;
+}
+
+.all-ph {
+    display: none;
+}
+
+@media only screen and (max-width:688px) {
+    .see-all {
+        display: block;
+        text-align: center;
+    }
+
+    .card-container {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 40px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .all {
+        display: none;
+    }
+
+    .all-ph {
+        display: block;
+        margin: 60px auto;
+    }
 }
